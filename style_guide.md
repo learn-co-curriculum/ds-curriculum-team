@@ -55,14 +55,14 @@ Contents:
 
 <a name="american_dictionary"></a>
 
-## American English Standard
+### American English Standard
 
 We draw from the American English dictionary. It's a "hood" not a "bonnet", "modeling" and not "modelling", a "color" not a 
 "colour" et al.
 
 <a name="do_not_mention_dates"></a>
 
-## Do Not Mention Dates
+### Do Not Mention Dates
 
 Do not specify delivery-specific concerns in the text. The "first Monday of the
 module" seems specific, obivious, and routine, but in the US Market, many
@@ -140,12 +140,9 @@ python).
 
 Don't capitalize:
 
-* autolayout (iOS)
 * bash — the commonly-used acronym for Bourne-Again SHell.
-* boolean — though in specific reference to the fields of Boolean Algebra or
-* Boolean Logic this can be appropriate, just be consistent.
+* boolean — though in specific reference to the fields of Boolean Algebra or Boolean Logic this can be appropriate, just be consistent.
 * debug console (iOS) — this is a colloquial name for the 'Console Output
-* Viewer' in Xcode
 
 **Do** capitalize:
 
@@ -157,7 +154,7 @@ Don't capitalize:
 
 ### Asides
 
-Use sparingly.
+Use asides sparingly. Some examples:
 
 **Note:** *The basic aside for "whispering" something minor that doesn't fit
 into the flow of exposition.*  Example:
@@ -174,7 +171,7 @@ you might want to try using a `let` block to DRY out the code. Consult the
 documentation...
 
 **Pro-tip:** *A note about style or best-practice, or a friendly reminder about
-avoiding a common or simple mistake. Think opinion-piece.*  
+avoiding a common or simple mistake. Think opinion-piece.* Example: 
 
 **Pro-tip:** Since launching the debugger console is a *very* common task when
 writing JavaScript, you might want to learn the shortcut: &#8984; + &#8997; +
@@ -206,8 +203,7 @@ you return!
 2 — You can also manually number your list if the automatic numbering gets
 broken because of a code-snippet.
 
-But, keep a consistent style. And generally avoiding making a list with only
-one point. Consider using an aside.
+But, keep a consistent style. Consider using an aside instead of lists with only one point.
 
 If you reference other bullets use numbered list.
 
@@ -265,12 +261,6 @@ lorem ipsum sit dolor amet
 Example is a very important word.
 ```
 
-Furthermore, many editors use newline to break when doing an automatic reformat
-to 80-columns. Here's an example of how this looks when it goes wrong:
-
-![Re-wrapping with unbroken header](./img/why_space_between_headings.png)
-
-
 <a name="do_not_leave_hanging_whitespace_at_end-of-line"></a>
 
 ### Do Not Leave Hanging Whitespace at End-of-Line
@@ -284,9 +274,7 @@ review.
 ```
 
 If you try to "select" with your mouse, you'll see there are extra space
-characters at the end of the first two lines.  Don't leave these. Most editors
-will detect and highlight these.
-
+characters at the end of the first two lines.  Don't leave these.
 
 <a name="footnote_style_markdown_links"></a>
 
