@@ -18,7 +18,7 @@ Contents:
   * [Do Not Use Smartquotes](#do_not_use_smartquotes)
   * [Code Blocks](#code_blocks)
   * [Block Quote](#block_quote)
-  * [Lists](#lists)
+  * [Lists](#lists_and_bullets)
   * [Do Not Use Curly-Quotes](#curly_quotes)
 * Style
   * [Tone](#tone)
@@ -32,10 +32,8 @@ Contents:
   * [Latin Abbreviations](#latin_abbrevs)
   * [In-Line Quote](#in_line_quote)
   * [Disambiguation of "learn"](#disambiguation_of_learn)
-  * [Learner vs. learner](#learner_vs_learner)
   * [Tables](#tables)
   * [Headings Should Be Capitalized According to AP Style](#headings_should_be_capitalized_according_to_ap_style)
-  * [Bullet Terminators](#bullets)
 * Engaging Writing
   * [Avoid Burying the Lede](#avoid_burying_the_lede)
   * [Write to a Junior High level](#write_jr_high)
@@ -174,9 +172,9 @@ on them.* Example:
 you pass a closure in, you might be surprised unless you're careful about what
 you return!
 
-<a name="lists"></a>
+<a name="lists_and_bullets"></a>
 
-### Lists:
+### Lists and bullets:
 
 1. Lists can be automatically numbered,
    * and contain bullet points.
@@ -188,7 +186,10 @@ broken because of a code-snippet.
 
 But, keep a consistent style. Consider using an aside instead of lists with only one point.
 
-If you reference other bullets use numbered list.
+If you reference other bullets use numbered list. 
+
+At the end of a sentence on a bullet **do not** add a period. If multiple sentences
+are present in the bullet, punctuate as normal but leave the period off the last statement.
 
 <a name="numerology"></a>
 
@@ -413,8 +414,6 @@ Usage:
 "You'll learn that the `learn` command integrates with your profile on Learn.co
 by uploading information through the Learn IDE."
 
-<a name="learner_vs_learner"></a>
-
 #### Learner vs. learner
 
 * learner — noun — a person who is gaining new knowledge or developing a skill.
@@ -443,13 +442,6 @@ code snippets, and use markdown reference notation for icon links inside a
 
 Capitalize every word except: "a," "an," "and," "at," "but," "by," "for," "in,"
 "nor," "of," "on," "or," "out," "so," "the," "to," "up," and "yet."
-
-<a name="bullet_termination"></a>
-
-### Bullet Termination
-
-At the end of a sentence on a bullet **do not** add a period. If multiple sentences
-are present in the bullet, punctuate as normal but leave the period off the last statement.
 
 <a name="write_jr_high"></a>
 
