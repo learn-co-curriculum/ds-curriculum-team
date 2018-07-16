@@ -15,7 +15,6 @@ Contents:
   * [Code Words](#code_words)
   * [Headings Get an Additional Blank Line](#headings_get_an_additional_blank_line)
   * [Do Not Leave Hanging Whitespace at End-of-Line](#do_not_leave_hanging_whitespace_at_end-of-line)
-  * [Footnote Style Markdown Links](#footnote_style_markdown_links)
   * [Do Not Use Smartquotes](#do_not_use_smartquotes)
   * [Long Dash](#long_dash_em-dash_literal)
   * [Code Blocks](#code_blocks)
@@ -89,12 +88,6 @@ While _editors_ may have soft wrap, many editing tools (e.g. `git diff`,
 the same reason we don't write methods with their implementation all in one
 line, we want a similar level of granularity when editing _technical text_.
 
-With short (i.e. wrapped) lines, reviewers have an absolute coordinate from
-which edits can be suggested.  In a long line, reviewers must point to the
-portion of the text via some relative means (third sentence, second use of
-"their") before explaining the change, which can be very time consuming for
-both the editor and the author receiving the feedback.
-
 These tools help the editing process. All major editors have configuration
 options to support this (e.g. vim's `format`, [Atom][atom-hard-wrap]).
 
@@ -107,10 +100,6 @@ specification brackets `[this will\n break]`. Obviously break our guideline
 here. It's very unlikely that you're going to receive frequent feedback on your
 links.
 
-Additionally, note that adhering to [footnote-style
-links](#footnote_style_markdown_links) will allow you to wrap and have short
-lines.
-
 <a name="code_words"></a> 
 
 ### Code Words
@@ -121,14 +110,10 @@ class name (`NSArray`), a method name (`.include?`), an operator (`<=>`), or a
 string literal (`"Hi, Grandma."`); in general, any piece of code that does not
 constitute a whole line or statement.
 
-Avoid beginning a new paragraph with a code word:
+Avoid beginning a new sentence with a code word whenever possible
 
 Not: `pwd` means "print working directory".  
 Use: The `pwd` command means "print working directory".  
-
-Also avoid beginning a new sentence with a code word whenever possible, though
-a semicolon `;` can be employed if altering the English syntax would make the
-paragraph awkward.
 
 <a name="capitalization"></a>
 
@@ -142,7 +127,6 @@ Don't capitalize:
 
 * bash — the commonly-used acronym for Bourne-Again SHell.
 * boolean — though in specific reference to the fields of Boolean Algebra or Boolean Logic this can be appropriate, just be consistent.
-* debug console (iOS) — this is a colloquial name for the 'Console Output
 
 **Do** capitalize:
 
@@ -265,57 +249,13 @@ Example is a very important word.
 
 ### Do Not Leave Hanging Whitespace at End-of-Line
 
-When editing it's common to leave hanging whitespace
+When editing it's common to leave hanging whitespace. Don't leave these.
 
 ```
 I hope that this 
 does not reflect poorly on my yearly 
 review.
 ```
-
-If you try to "select" with your mouse, you'll see there are extra space
-characters at the end of the first two lines.  Don't leave these.
-
-<a name="footnote_style_markdown_links"></a>
-
-## Footnote Style Markdown Links
-
-Prefer footnote-style link definition to inline. Given our width constraint
-guidelines, footnote-style helps keep the document readable. Further, as URLs
-need to change, the grep-ability / maintainability is increased by using
-footnote style. Prefer:
-
-```
-
-[Byron][] the poodle is a great dog.
-[Karbit's Byron by the Bay][Byron] was born in Reno, NV but now dwells in Manhattan.
-
-[Byron]: https://laurennicoleroth.smugmug.com/Byron/i-KgvCcgX/A
-
-```
-
-Not:
-
-```
-[Byron](https://laurennicoleroth.smugmug.com/Byron/i-KgvCcgX/A) loves to play in Marin County!
-```
-
-In the first sample we can use the `Byron` pointer in a variety of cases. In a
-technical document we could create a pointer like `[link-definition]` and
-easily (with a sufficently powerful editor) wrap all occurrences of `<a>`,
-`link` and `MDN documentation of the anchor tag` all with the same pointer. And
-when / if that `href` changes, we can make 1 change, 1 commit, 1 focused line
-(provided the lines are wrapped!).
-
-This recalls the wisdom behind the refactor "EXTRACT MAGIC STRING TO SYMBOLIC
-CONSTANT."
-
-Obviously, in unordered lists of links this is unhelpful and therefore can be
-ignored. Where intelligibility is impaired or level of indirection is
-needlessly increased, this rule may be ignored.
-
-The goal of this rule is to increase readability and make changing links (which
-have a tendency to die out) easy. Honor that spirit.
 
 <a name="do_not_use_smartquotes"></a>
 
@@ -341,7 +281,6 @@ for this character. Use code characters.
 Employ the the long dash character \`&mdash;\` directly by using the HTML
 entity `&mdash;`. Additionally modern markdown engines will convert `--`
 to &mdash;
-
 
 <a name="code_blocks"></a>
 
