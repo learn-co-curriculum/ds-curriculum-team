@@ -16,7 +16,6 @@ Contents:
   * [Headings Get an Additional Blank Line](#headings_get_an_additional_blank_line)
   * [Do Not Leave Hanging Whitespace at End-of-Line](#do_not_leave_hanging_whitespace_at_end-of-line)
   * [Do Not Use Smartquotes](#do_not_use_smartquotes)
-  * [Long Dash](#long_dash_em-dash_literal)
   * [Code Blocks](#code_blocks)
   * [Block Quote](#block_quote)
   * [Lists](#lists)
@@ -221,7 +220,7 @@ code, think of the use case to determine what you're talking about. Are you:
 
 <a name="headings_get_an_additional_blank_line"></a>
 
-## Headings Get an Additional Blank Line
+### Headings Get an Additional Blank Line
 
 Markdown was designed to emualte rich text within console based editors and
 pagers. As such a headline should "pop" by being surrounded by blank lines.
@@ -274,17 +273,9 @@ But:
 If one wanted to change the first example from `“` to `'` one couldn't search
 for this character. Use code characters.
 
-<a name="long_dash_em-dash_literal"></a>
-
-### Long Dash (Em-Dash) Literal
-
-Employ the the long dash character \`&mdash;\` directly by using the HTML
-entity `&mdash;`. Additionally modern markdown engines will convert `--`
-to &mdash;
-
 <a name="code_blocks"></a>
 
-#### Code Blocks
+### Code Blocks
 
 ```objc
 NSString *code = @"Code ";
