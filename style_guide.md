@@ -11,7 +11,8 @@ Contents:
   * [American English Standard](#american_dictionary)
   * [Do Not Mention Dates](#do_not_mention_dates)
 * Formatting Markdown
-  * [Text Wrap at 80 Column](#text_wrap_at_80_column)
+  * [Text Wrap at 80 Column](#text_wrap_at_80_column) 
+  * [Code Words](#code_words)
   * [Headings Get an Additional Blank Line](#headings_get_an_additional_blank_line)
   * [Do Not Leave Hanging Whitespace at End-of-Line](#do_not_leave_hanging_whitespace_at_end-of-line)
   * [Footnote Style Markdown Links](#footnote_style_markdown_links)
@@ -75,7 +76,7 @@ Use [GitHub-flavored markdown][GHMD].
 
 <a name="text_wrap_at_80_column"></a>
 
-## Text Wrap at 80 Column
+### Text Wrap at 80 Column 
 
 Text should be hard wrapped near 80-column width.
 
@@ -110,9 +111,9 @@ Additionally, note that adhering to [footnote-style
 links](#footnote_style_markdown_links) will allow you to wrap and have short
 lines.
 
-<a name="code_words"></a>
+<a name="code_words"></a> 
 
-#### Code Words
+### Code Words
 
 When discussing a "code word" as part of a regular sentence, wrap the code word
 in single back ticks ( \` ). This could be a variable name (`myString`), a
