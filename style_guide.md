@@ -41,6 +41,10 @@ Contents:
   * [Terminal, console, etc.](#wc_terminal)
   * [Table of Word Choice Alternatives](#wc_subs)
 
+
+## ADD PYTHON STYLE GUIDE
+## STANDARD IMPORT PACKAGES (PD, NP,..)
+## avoid saying "this is so easy"
 ---
 
 ## Flatiron Concerns
