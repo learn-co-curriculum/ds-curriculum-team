@@ -15,22 +15,18 @@ Contents:
   * [Code Words](#code_words)
   * [Headings Get an Additional Blank Line](#headings_get_an_additional_blank_line)
   * [Do Not Leave Hanging Whitespace at End-of-Line](#do_not_leave_hanging_whitespace_at_end-of-line)
-  * [Do Not Use Smartquotes](#do_not_use_smartquotes)
   * [Code Blocks](#code_blocks)
-  * [Block Quote](#block_quote)
+  * [Quotes](#quotes)
   * [Lists](#lists_and_bullets)
-  * [Do Not Use Curly-Quotes](#curly_quotes)
 * Style
   * [Tone](#tone)
   * [Personhood](#personhood)
   * [Non-Gendered Speech](#non-gendered_speech)
   * [Abbreviations](#abbreviations)
-  * [Code Words](#code_words)
   * [Capitalization](#capitalization)
   * [Asides](#asides)
   * [Numerology](#numerology)
   * [Latin Abbreviations](#latin_abbrevs)
-  * [In-Line Quote](#in_line_quote)
   * [Disambiguation of "learn"](#disambiguation_of_learn)
   * [Tables](#tables)
   * [Headings Should Be Capitalized According to AP Style](#headings_should_be_capitalized_according_to_ap_style)
@@ -112,66 +108,6 @@ Avoid beginning a new sentence with a code word whenever possible
 Not: `pwd` means "print working directory".  
 Use: The `pwd` command means "print working directory".  
 
-<a name="capitalization"></a>
-
-### Capitalization
-
-Names of languages should be capitalized unless part of a code snippet (e.g.
-Ruby or `ruby`, Objective-C, Python or `python`; not: ruby, objective-c,
-python).  
-
-Don't capitalize:
-
-* bash — the commonly-used acronym for Bourne-Again SHell.
-* boolean — though in specific reference to the fields of Boolean Algebra or Boolean Logic this can be appropriate, just be consistent.
-
-**Do** capitalize:
-
-* *most acronyms:* CLI, URL, HTTP, LLDB.
-* *names of programming languages:* Python, Ruby, Objective-C, Swift, JavaScript
-* Interface Builder — Xcode's integrated storyboard design tool.
-
-<a name="asides"></a>
-
-### Asides
-
-Use asides sparingly. Some examples:
-
-**Note:** *The basic aside for "whispering" something minor that doesn't fit
-into the flow of exposition.*  Example:
-
-**Note:** You might find that your version differs in its third number versus
-what we have in our example. We use 2.7.2, but 2.7.3 would work just fine.
-
-**Advanced:** *A helpful note that is not readily understandable to the present
-skill level of the reading and not required to fulfill the objectives.*
-Example:
-
-**Advanced:** If you notice that you're repeating yourself a lot in these specs,
-you might want to try using a `let` block to DRY out the code. Consult the
-documentation...
-
-**Pro-tip:** *A note about style or best-practice, or a friendly reminder about
-avoiding a common or simple mistake. Think opinion-piece.* Example: 
-
-**Pro-tip:** Since launching the debugger console is a *very* common task when
-writing JavaScript, you might want to learn the shortcut: &#8984; + &#8997; +
-j.
-
-**Hint:** (in labs) *A note about avoiding a common mistake not readily
-apparent in the given instructions, or direction to a useful method that has
-not been previously explained.* Example:
-
-**Hint:** Your first insinct might be to reach for `.each`, but since you're
-accumulating the values, there might be a better Enumerable.
-
-**Reminder:** *A reminder of previously learned concepts as we start to build
-on them.* Example:
-
-**Reminder:** JavaScript does not have implicit `return` in its functions. If
-you pass a closure in, you might be surprised unless you're careful about what
-you return!
-
 <a name="lists_and_bullets"></a>
 
 ### Lists and bullets:
@@ -190,34 +126,6 @@ If you reference other bullets use numbered list.
 
 At the end of a sentence on a bullet **do not** add a period. If multiple sentences
 are present in the bullet, punctuate as normal but leave the period off the last statement.
-
-<a name="numerology"></a>
-
-### Numerology
-
-When discussing numbers in exposition paragraphs, remember the English rule
-that numbers from zero to ten should be written out and values over 1,000
-should be written with comma separators. Since this can collide with discussing
-code, think of the use case to determine what you're talking about. Are you:
-
-* discussing the number only in your exposition? Use the English form. 
-* discussing an integer value from your code? Put the digit `10` in a code
-  snippet. 
-* discussing an abstract count that's relevant to your code? Do both, by
-* presenting it as ten (10) or ten (`10`).
-
-<a name="latin_abbrevs"></a>
-
-### *exampla gratia* (e.g.) vs. *id est* (i.e.) vs. *et cetera* (etc.)
-
-* e.g. — Latin for "given example(s)" — points to a single example or a finite
-  list of examples.
-* i.e. — Latin for "meaning" — points out a further explanation of the same
-  idea.
-* etc. — follows one or several examples pulled from a longer set of potential
-  examples. 
-
-*etc. and e.g. should not be combined in the same list*
 
 <a name="headings_get_an_additional_blank_line"></a>
 
@@ -257,23 +165,6 @@ does not reflect poorly on my yearly
 review.
 ```
 
-<a name="do_not_use_smartquotes"></a>
-
-### Do Not Use Smartquotes
-
-If your editor does this, stop it.
-
-Not:
-
-“Why”
-
-But:
-
-"Why"
-
-If one wanted to change the first example from `“` to `'` one couldn't search
-for this character. Use code characters.
-
 <a name="code_blocks"></a>
 
 ### Code Blocks
@@ -303,9 +194,11 @@ NSString *block = @"block.";
 NSString *codeBlock = [code stringByAppendingString:block];  
 \`\`\`
 
-<a name="block_quote"></a>
+<a name="quotes"></a>
 
-##### Block Quote
+### Quotes
+
+#### Block Quote
 
 >You can employ an HTML-style block quote by starting the first line with an
 >`>`. This is better for large excerpts when line breaks don't matter.
@@ -314,23 +207,34 @@ NSString *codeBlock = [code stringByAppendingString:block];
 More commonly a block quote will be appropriate when quoting a technical work,
 programming documents, or a blog.
 
-<a name="in_line_quote"></a>
-
-##### In-Line Quote
+#### In-Line Quote
 
 When writing an "in-line quote", punctuation should remain outside the phrase
 "unless you are making a reference quote that includes it." Punctuation symbols
 can have technical importance to the subject matter so explicitly excluding
 punctuation from quotes is justifiable.
 
-<a name="curly_quotes"></a>
-
-##### Do Not Use Curly-Quotes
+#### Do Not Use Curly-Quotes
 
 No: `”`
 
 They render unpredictably, you can't search for them from a standard keyboard.
 No. Also no: &raquo; &laquo;. Use American quotation formatting.
+
+### Do Not Use Smartquotes
+
+If your editor does this, stop it.
+
+Not:
+
+“Why”
+
+But:
+
+"Why"
+
+If one wanted to change the first example from `“` to `'` one couldn't search
+for this character. Use code characters.
 
 ## Style
 
@@ -392,6 +296,93 @@ Correct:
 ```
 You can use ActiveRecord ('AR') to access the database...
 ```
+
+<a name="capitalization"></a>
+
+### Capitalization
+
+Names of languages should be capitalized unless part of a code snippet (e.g.
+Ruby or `ruby`, Objective-C, Python or `python`; not: ruby, objective-c,
+python).  
+
+Don't capitalize:
+
+* bash — the commonly-used acronym for Bourne-Again SHell.
+* boolean — though in specific reference to the fields of Boolean Algebra or Boolean Logic this can be appropriate, just be consistent.
+
+**Do** capitalize:
+
+* *most acronyms:* CLI, URL, HTTP, LLDB.
+* *names of programming languages:* Python, Ruby, Objective-C, Swift, JavaScript
+* Interface Builder — Xcode's integrated storyboard design tool.
+<a name="asides"></a>
+
+### Asides
+
+Use asides sparingly. Some examples:
+
+**Note:** *The basic aside for "whispering" something minor that doesn't fit
+into the flow of exposition.*  Example:
+
+**Note:** You might find that your version differs in its third number versus
+what we have in our example. We use 2.7.2, but 2.7.3 would work just fine.
+
+**Advanced:** *A helpful note that is not readily understandable to the present
+skill level of the reading and not required to fulfill the objectives.*
+Example:
+
+**Advanced:** If you notice that you're repeating yourself a lot in these specs,
+you might want to try using a `let` block to DRY out the code. Consult the
+documentation...
+
+**Pro-tip:** *A note about style or best-practice, or a friendly reminder about
+avoiding a common or simple mistake. Think opinion-piece.* Example: 
+
+**Pro-tip:** Since launching the debugger console is a *very* common task when
+writing JavaScript, you might want to learn the shortcut: &#8984; + &#8997; +
+j.
+
+**Hint:** (in labs) *A note about avoiding a common mistake not readily
+apparent in the given instructions, or direction to a useful method that has
+not been previously explained.* Example:
+
+**Hint:** Your first insinct might be to reach for `.each`, but since you're
+accumulating the values, there might be a better Enumerable.
+
+**Reminder:** *A reminder of previously learned concepts as we start to build
+on them.* Example:
+
+**Reminder:** JavaScript does not have implicit `return` in its functions. If
+you pass a closure in, you might be surprised unless you're careful about what
+you return!
+
+<a name="numerology"></a>
+
+### Numerology
+
+When discussing numbers in exposition paragraphs, remember the English rule
+that numbers from zero to ten should be written out and values over 1,000
+should be written with comma separators. Since this can collide with discussing
+code, think of the use case to determine what you're talking about. Are you:
+
+* discussing the number only in your exposition? Use the English form. 
+* discussing an integer value from your code? Put the digit `10` in a code
+  snippet. 
+* discussing an abstract count that's relevant to your code? Do both, by
+* presenting it as ten (10) or ten (`10`).
+
+<a name="latin_abbrevs"></a>
+
+### *exampla gratia* (e.g.) vs. *id est* (i.e.) vs. *et cetera* (etc.)
+
+* e.g. — Latin for "given example(s)" — points to a single example or a finite
+  list of examples.
+* i.e. — Latin for "meaning" — points out a further explanation of the same
+  idea.
+* etc. — follows one or several examples pulled from a longer set of potential
+  examples. 
+
+*etc. and e.g. should not be combined in the same list*
 
 <a name="disambiguation_of_learn"></a>
 
