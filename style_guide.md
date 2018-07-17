@@ -18,6 +18,8 @@ Contents:
   * [Tables](#tables)
   * [Quotes](#quotes)
 * Style
+  * [Python_Style_Guide](#python_style)
+  * [Python_Libraries](#python_libraries)
   * [Abbreviations](#abbreviations)
   * [Capitalization](#capitalization)
   * [Asides](#asides)
@@ -42,7 +44,6 @@ Contents:
   * [Table of Word Choice Alternatives](#wc_subs)
 
 
-## ADD PYTHON STYLE GUIDE
 ## STANDARD IMPORT PACKAGES (PD, NP,..)
 ## avoid saying "this is so easy"
 ---
@@ -207,6 +208,32 @@ If one wanted to change the first example from `“` to `'` one couldn't search
 for this character. Use code characters.
 
 ## Style
+
+<a name="python_style"></a>
+
+### Python Style Guide
+
+For any Python code, we use Python guru Guido Van Rossem's "PEP 8 -- Style Guide for Python Code", to be found [here](https://www.python.org/dev/peps/pep-0008/)
+
+<a name="python_libraries"></a>
+
+### Python Libraries Naming Conventions
+
+Python code will often start with library imports. Some examples:
+
+```python
+import pandas as pd
+import scipy as sp
+import numpy as np
+import matplotlib.pyplot as plt
+```
+The libraries stated above are used **very** often. You'll see that `pandas` will almost everywhere be imported as `pd`, `numpy` as `np`, etc. It is important to be consistent, because code like this will break:
+
+```
+pd.read_csv("C://anyfolder/anyfile.csv)
+```
+when you simply use `import pandas` or name it differently. We encourage writers to be very consistent in naming libraries when importing them, and to make sure to do a quick check on what the naming conventions are when importing new (and less common) libraries. 
+
 
 <a name="abbreviations"></a>
 
