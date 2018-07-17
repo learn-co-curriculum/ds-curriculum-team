@@ -18,9 +18,6 @@ Contents:
   * [Tables](#tables)
   * [Quotes](#quotes)
 * Style
-  * [Tone](#tone)
-  * [Personhood](#personhood)
-  * [Non-Gendered Speech](#non-gendered_speech)
   * [Abbreviations](#abbreviations)
   * [Capitalization](#capitalization)
   * [Asides](#asides)
@@ -31,6 +28,9 @@ Contents:
   * [Do Not Leave Hanging Whitespace at End-of-Line](#do_not_leave_hanging_whitespace_at_end-of-line)
   * [Headings Should Be Capitalized According to AP Style](#headings_should_be_capitalized_according_to_ap_style)
 * Engaging Writing
+  * [Tone](#tone)
+  * [Personhood](#personhood)
+  * [Non-Gendered Speech](#non-gendered_speech)
   * [Avoid Burying the Lede](#avoid_burying_the_lede)
   * [Write to a Junior High level](#write_jr_high)
   * [Avoid Value Judgements](#avoid_value_judgements)
@@ -203,43 +203,6 @@ If one wanted to change the first example from `“` to `'` one couldn't search
 for this character. Use code characters.
 
 ## Style
-
-<a name="tone"></a>
-
-### Tone
-
-Tone should be conversational. It is appropriate to "break the fourth wall" and
-speak to the reader using "you."
-
-Per our "[Brand Book][bb]," here are attributes that our voice should have:
-
-#### Passionate
-
-Optimistic, Positive, Purposeful **over** Apathetic, Sarcastic, Detached
-
-#### Rigorous
-
-Elite, Determined, Eager **over** Elistist, Gentle, Easy
-
-#### Knowledgable
-
-Trustworthy, Useful, Transparent **over** Uninformed, Unhelpful, Overtly Salesy
-
-<a name="personhood"></a>
-
-### Personhood
-
-Curriculum should be writen in first-person plural (We).
-
-<a name="non-gendered_speech"></a>
-
-### Non-Gendered Speech
-
-We do not use "he" or "she" or "ze" or "wir" or "hir."
-
-We use "they" as a third-person singular honoring the descriptivist tendencies
-of pre-18<sup>th</sup> century usage.
-
 
 <a name="abbreviations"></a>
 
@@ -424,6 +387,44 @@ review.
 
 Capitalize every word except: "a," "an," "and," "at," "but," "by," "for," "in,"
 "nor," "of," "on," "or," "out," "so," "the," "to," "up," and "yet."
+
+## Engaging Writing
+
+<a name="tone"></a>
+
+### Tone
+
+Tone should be conversational. It is appropriate to "break the fourth wall" and
+speak to the reader using "you."
+
+Per our "[Brand Book][bb]," here are attributes that our voice should have:
+
+#### Passionate
+
+Optimistic, Positive, Purposeful **over** Apathetic, Sarcastic, Detached
+
+#### Rigorous
+
+Elite, Determined, Eager **over** Elistist, Gentle, Easy
+
+#### Knowledgable
+
+Trustworthy, Useful, Transparent **over** Uninformed, Unhelpful, Overtly Salesy
+
+<a name="personhood"></a>
+
+### Personhood
+
+Curriculum should be writen in first-person plural (We).
+
+<a name="non-gendered_speech"></a>
+
+### Non-Gendered Speech
+
+We do not use "he" or "she" or "ze" or "wir" or "hir."
+
+We use "they" as a third-person singular honoring the descriptivist tendencies
+of pre-18<sup>th</sup> century usage.
 
 <a name="write_jr_high"></a>
 
