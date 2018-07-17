@@ -14,8 +14,9 @@ Contents:
   * [Text Wrap at 80 Column](#text_wrap_at_80_column) 
   * [Code Words](#code_words)
   * [Code Blocks](#code_blocks)
+  * [Lists and Bullets](#lists_and_bullets)
+  * [Tables](#tables)
   * [Quotes](#quotes)
-  * [Lists](#lists_and_bullets)
 * Style
   * [Tone](#tone)
   * [Personhood](#personhood)
@@ -29,7 +30,6 @@ Contents:
   * [Headings Get an Additional Blank Line](#headings_get_an_additional_blank_line)
   * [Do Not Leave Hanging Whitespace at End-of-Line](#do_not_leave_hanging_whitespace_at_end-of-line)
   * [Headings Should Be Capitalized According to AP Style](#headings_should_be_capitalized_according_to_ap_style)
-  * [Tables](#tables)
 * Engaging Writing
   * [Avoid Burying the Lede](#avoid_burying_the_lede)
   * [Write to a Junior High level](#write_jr_high)
@@ -108,25 +108,6 @@ Avoid beginning a new sentence with a code word whenever possible
 Not: `pwd` means "print working directory".  
 Use: The `pwd` command means "print working directory".  
 
-<a name="lists_and_bullets"></a>
-
-### Lists and bullets:
-
-1. Lists can be automatically numbered,
-   * and contain bullet points.
-
-* Or they can be unnumbered (bulleted) lists.
-
-2 — You can also manually number your list if the automatic numbering gets
-broken because of a code-snippet.
-
-But, keep a consistent style. Consider using an aside instead of lists with only one point.
-
-If you reference other bullets use numbered list. 
-
-At the end of a sentence on a bullet **do not** add a period. If multiple sentences
-are present in the bullet, punctuate as normal but leave the period off the last statement.
-
 <a name="code_blocks"></a>
 
 ### Code Blocks
@@ -155,6 +136,25 @@ NSString *code = @"Code ";
 NSString *block = @"block.";  
 NSString *codeBlock = [code stringByAppendingString:block];  
 \`\`\`
+
+<a name="lists_and_bullets"></a>
+
+### Lists and Bullets
+
+1. Lists can be automatically numbered,
+   * and contain bullet points.
+
+* Or they can be unnumbered (bulleted) lists.
+
+2 — You can also manually number your list if the automatic numbering gets
+broken because of a code-snippet.
+
+But, keep a consistent style. Consider using an aside instead of lists with only one point.
+
+If you reference other bullets use numbered list. 
+
+At the end of a sentence on a bullet **do not** add a period. If multiple sentences
+are present in the bullet, punctuate as normal but leave the period off the last statement.
 
 <a name="tables"></a>
 
@@ -196,7 +196,7 @@ No: `”`
 They render unpredictably, you can't search for them from a standard keyboard.
 No. Also no: &raquo; &laquo;. Use American quotation formatting.
 
-### Do Not Use Smartquotes
+#### Do Not Use Smartquotes
 
 If your editor does this, stop it.
 
