@@ -41,7 +41,6 @@ Contents:
   * [Write from the Student Perspective](#write_from_the_student_perspective)
   * [Avoid Rhetorical Questions to Drive Material](#avoid_rhetorical_questions_to_drive_material)
 
-## avoid saying "this is so easy"
 ---
 
 ## Flatiron Concerns
@@ -226,7 +225,7 @@ import matplotlib.pyplot as plt
 The libraries stated above are used **very** often. You'll see that `pandas` will almost everywhere be imported as `pd`, `numpy` as `np`, etc. It is important to be consistent, because code like this will break:
 
 ```
-pd.read_csv("C://anyfolder/anyfile.csv)
+pd.read_csv("C://anyfolder/anyfile.csv")
 ```
 when you simply use `import pandas` or name it differently. We encourage writers to be very consistent in naming libraries when importing them, and to make sure to do a quick check on what the naming conventions are when importing new (and less common) libraries. 
 
