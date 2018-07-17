@@ -13,8 +13,6 @@ Contents:
 * Formatting Markdown
   * [Text Wrap at 80 Column](#text_wrap_at_80_column) 
   * [Code Words](#code_words)
-  * [Headings Get an Additional Blank Line](#headings_get_an_additional_blank_line)
-  * [Do Not Leave Hanging Whitespace at End-of-Line](#do_not_leave_hanging_whitespace_at_end-of-line)
   * [Code Blocks](#code_blocks)
   * [Quotes](#quotes)
   * [Lists](#lists_and_bullets)
@@ -28,8 +26,10 @@ Contents:
   * [Numerology](#numerology)
   * [Latin Abbreviations](#latin_abbrevs)
   * [Disambiguation of "learn"](#disambiguation_of_learn)
-  * [Tables](#tables)
+  * [Headings Get an Additional Blank Line](#headings_get_an_additional_blank_line)
+  * [Do Not Leave Hanging Whitespace at End-of-Line](#do_not_leave_hanging_whitespace_at_end-of-line)
   * [Headings Should Be Capitalized According to AP Style](#headings_should_be_capitalized_according_to_ap_style)
+  * [Tables](#tables)
 * Engaging Writing
   * [Avoid Burying the Lede](#avoid_burying_the_lede)
   * [Write to a Junior High level](#write_jr_high)
@@ -127,44 +127,6 @@ If you reference other bullets use numbered list.
 At the end of a sentence on a bullet **do not** add a period. If multiple sentences
 are present in the bullet, punctuate as normal but leave the period off the last statement.
 
-<a name="headings_get_an_additional_blank_line"></a>
-
-### Headings Get an Additional Blank Line
-
-Markdown was designed to emualte rich text within console based editors and
-pagers. As such a headline should "pop" by being surrounded by blank lines.
-
-Do:
-
-```
-lorem ipsum sit dolor amet
-
-## Example
-
-Example is a very important word.
-```
-
-Do not:
-
-```
-lorem ipsum sit dolor amet
-
-## Example
-Example is a very important word.
-```
-
-<a name="do_not_leave_hanging_whitespace_at_end-of-line"></a>
-
-### Do Not Leave Hanging Whitespace at End-of-Line
-
-When editing it's common to leave hanging whitespace. Don't leave these.
-
-```
-I hope that this 
-does not reflect poorly on my yearly 
-review.
-```
-
 <a name="code_blocks"></a>
 
 ### Code Blocks
@@ -193,6 +155,19 @@ NSString *code = @"Code ";
 NSString *block = @"block.";  
 NSString *codeBlock = [code stringByAppendingString:block];  
 \`\`\`
+
+<a name="tables"></a>
+
+### Tables
+
+Tables are a great way to organize sets of parallel information, such as
+[logical
+operators](https://github.com/learn-co-curriculum/reading-ios-looping-and-conditionals#combining-conditionals).
+
+Try to keep the Markdown symbols as table-like as possible, wrap symbols in
+code snippets, and use markdown reference notation for icon links inside a
+"cell". These will improve future maintainability of the code.
+<a name="headings_should_be_capitalized_according_to_ap_style"></a>
 
 <a name="quotes"></a>
 
@@ -416,18 +391,43 @@ Usage:
 "Learners on Learn.co are learning the tools to make themselves lifelong
 learners."
 
-<a name="tables"></a>
+<a name="headings_get_an_additional_blank_line"></a>
 
-### Tables
+### Headings Get an Additional Blank Line
 
-Tables are a great way to organize sets of parallel information, such as
-[logical
-operators](https://github.com/learn-co-curriculum/reading-ios-looping-and-conditionals#combining-conditionals).
+Markdown was designed to emualte rich text within console based editors and
+pagers. As such a headline should "pop" by being surrounded by blank lines.
 
-Try to keep the Markdown symbols as table-like as possible, wrap symbols in
-code snippets, and use markdown reference notation for icon links inside a
-"cell". These will improve future maintainability of the code.
-<a name="headings_should_be_capitalized_according_to_ap_style"></a>
+Do:
+
+```
+lorem ipsum sit dolor amet
+
+## Example
+
+Example is a very important word.
+```
+
+Do not:
+
+```
+lorem ipsum sit dolor amet
+
+## Example
+Example is a very important word.
+```
+
+<a name="do_not_leave_hanging_whitespace_at_end-of-line"></a>
+
+### Do Not Leave Hanging Whitespace at End-of-Line
+
+When editing it's common to leave hanging whitespace. Don't leave these.
+
+```
+I hope that this 
+does not reflect poorly on my yearly 
+review.
+```
 
 ### Headings Should Be Capitalized According to AP Style
 
