@@ -112,30 +112,21 @@ Use: The `pwd` command means "print working directory".
 
 ### Code Blocks
 
-```objc
-NSString *code = @"Code ";
-NSString *block = @"block.";
-NSString *codeBlock = [code stringByAppendingString:block];
+```python
+import pandas as pd
+import numpy as np
+train = pd.read_csv("C:/desktop/data/titanic.csv")
 ```
 
 "Code blocks" are declared by wrapping in triple back-ticks ( ``` ). The
 opening triple back-tick should be followed with a language declaration
 appropriate to the contents of the code block:
 
+* `python`: Python
 * `bash` : Bash, CLI output
 * `ruby` : Ruby
 * `js`   : JavaScript
-* `objc` : Objective-C
-* `swift`: Swift
 * (none) : LLDB console output
-
-The example code block above is written in markdown with the following syntax:
-
-\`\`\`objc  
-NSString *code = @"Code ";  
-NSString *block = @"block.";  
-NSString *codeBlock = [code stringByAppendingString:block];  
-\`\`\`
 
 <a name="lists_and_bullets"></a>
 
