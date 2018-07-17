@@ -18,8 +18,8 @@ Contents:
   * [Tables](#tables)
   * [Quotes](#quotes)
 * Style
-  * [Python_Style_Guide](#python_style)
-  * [Python_Libraries](#python_libraries)
+  * [Python Style Guide](#python_style)
+  * [Python Libraries](#python_libraries)
   * [Abbreviations](#abbreviations)
   * [Capitalization](#capitalization)
   * [Asides](#asides)
@@ -29,6 +29,7 @@ Contents:
   * [Headings Get an Additional Blank Line](#headings_get_an_additional_blank_line)
   * [Do Not Leave Hanging Whitespace at End-of-Line](#do_not_leave_hanging_whitespace_at_end-of-line)
   * [Headings Should Be Capitalized According to AP Style](#headings_should_be_capitalized_according_to_ap_style)
+  * [Terminal, console, etc.](#wc_terminal)
 * Engaging Writing
   * [Tone](#tone)
   * [Personhood](#personhood)
@@ -39,12 +40,7 @@ Contents:
   * [Prefer Active Voice](#prefer_active_voice)
   * [Write from the Student Perspective](#write_from_the_student_perspective)
   * [Avoid Rhetorical Questions to Drive Material](#avoid_rhetorical_questions_to_drive_material)
-* Word Choice
-  * [Terminal, console, etc.](#wc_terminal)
-  * [Table of Word Choice Alternatives](#wc_subs)
 
-
-## STANDARD IMPORT PACKAGES (PD, NP,..)
 ## avoid saying "this is so easy"
 ---
 
@@ -419,6 +415,31 @@ review.
 Capitalize every word except: "a," "an," "and," "at," "but," "by," "for," "in,"
 "nor," "of," "on," "or," "out," "so," "the," "to," "up," and "yet."
 
+<a name="wc_terminal"></a>
+### Terminal, console, etc.
+
+Given our subject matter we have to be careful not to conflate `bash`, `shell`,
+`command line`, `command prompt`. It's important to be clear on which layer
+of abstracting you're working with, where. The general preferred nouns should
+be `terminal` and `shell`. Here are tips for sensing the boundary:
+
+* All students should be pointed to the `terminal`. Pretty safe. This means
+  the terminal emulation program, i.e. the thing that handles raw input and output
+  and painting a screen. **NOTE** it does not process the input for semantic
+  meaning. `ls` is handled by the **shell** not the **terminal**. You _can_
+  type `ls` into the termainal though.
+* `the shell` takes input, thinks, prints things out. Pretty safe. Use this when
+   you're trying to talk about the OS level mechanics. The shell doesn't paint
+   the screen.
+* `Terminal` is a command used only by Mac users. Not safe
+* `console`s exist in Chrome and in an XTerm. Not safe.
+* `bash` is a specific shell. Probably not safe.
+* The command prompt is the thing set by `PS1`, might be safe to orient by,
+  but it doesn't process data, etc.
+* The command-line...roughly the same as shell, but it's really a style of
+  of interaction. Prefer shell.
+
+
 ## Engaging Writing
 
 <a name="tone"></a>
@@ -603,41 +624,6 @@ It's tempting to "plant" a rhetorical question in order to set up material.
 Often, however, this work is not required. They're reading a lesson expecting
 to have material presented. Speaking with authority, especially in earlier
 courses, creates safety that allows them to learn comfortably.
-
-## Specific Word Choice
-
-<a name="wc_terminal"></a>
-### Terminal, console, etc.
-
-Given our subject matter we have to be careful not to conflate `bash`, `shell`,
-`command line`, `command prompt`. It's important to be clear on which layer
-of abstracting you're working with, where. The general preferred nouns should
-be `terminal` and `shell`. Here are tips for sensing the boundary:
-
-* All students should be pointed to the `terminal`. Pretty safe. This means
-  the terminal emulation program, i.e. the thing that handles raw input and output
-  and painting a screen. **NOTE** it does not process the input for semantic
-  meaning. `ls` is handled by the **shell** not the **terminal**. You _can_
-  type `ls` into the termainal though.
-* `the shell` takes input, thinks, prints things out. Pretty safe. Use this when
-   you're trying to talk about the OS level mechanics. The shell doesn't paint
-   the screen.
-* `Terminal` is a command used only by Mac users. Not safe
-* `console`s exist in Chrome and in an XTerm. Not safe.
-* `bash` is a specific shell. Probably not safe.
-* The command prompt is the thing set by `PS1`, might be safe to orient by,
-  but it doesn't process data, etc.
-* The command-line...roughly the same as shell, but it's really a style of
-  of interaction. Prefer shell.
-  
-<a name="wc_subs"></a>  
-Table of Substitutions
-
-|Not|Prefer|
-|---|------|
-|interacting|working|
-|as presented by|shown|
-|erroneous|wrong|
 
 [80col]: https://www.emacswiki.org/emacs/EightyColumnRule
 [GHMD]: https://help.github.com/categories/writing-on-github/
