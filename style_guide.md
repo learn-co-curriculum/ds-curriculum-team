@@ -16,6 +16,7 @@ Contents:
   * [Lists and Bullets](#lists_and_bullets)
   * [Tables](#tables)
   * [Quotes](#quotes)
+  * [Math](#math)
 * Style
   * [Python Style Guide](#python_style)
   * [Python Libraries](#python_libraries)
@@ -153,6 +154,16 @@ punctuation from quotes is justifiable.
 No: curly quotes: `”` or smart quotes: “Why”
 Also no: &raquo; &laquo;. 
 Use American quotation formatting: "Why"
+
+<a name="math"></a>
+
+### Math
+
+In markdown, we use LaTeX for mathematical expressions. Some guidelines:
+- Every mathematical expression or variable should be denoted in LaTeX-style format, even if what we are trying still makes sense when using the standard format.  
+**Do**: "We define $f(x)$ a function of $x$." **Don't**: "We define f(x) a function of x."
+- Use $\dfrac{}{}$ instead of $\frac{}{}$ to get fractions that don't look ridiculously small.
+
 
 ## Style
 
