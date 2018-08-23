@@ -11,7 +11,6 @@ Contents:
   * [American English Standard](#american_dictionary)
   * [Do Not Mention Dates](#do_not_mention_dates)
 * Formatting Markdown
-  * [Text Wrap at 80 Column](#text_wrap_at_80_column) 
   * [Code Words](#code_words)
   * [Code Blocks](#code_blocks)
   * [Lists and Bullets](#lists_and_bullets)
@@ -24,7 +23,6 @@ Contents:
   * [Capitalization](#capitalization)
   * [Asides](#asides)
   * [Numerology](#numerology)
-  * [Latin Abbreviations](#latin_abbrevs)
   * [Disambiguation of "learn"](#disambiguation_of_learn)
   * [Headings Get an Additional Blank Line](#headings_get_an_additional_blank_line)
   * [Do Not Leave Hanging Whitespace at End-of-Line](#do_not_leave_hanging_whitespace_at_end-of-line)
@@ -65,33 +63,6 @@ work on Saturday, etc.
 ## Formatting Markdown
 
 Use [GitHub-flavored markdown][GHMD].
-
-<a name="text_wrap_at_80_column"></a>
-
-### Text Wrap at 80 Column 
-
-Text should be hard wrapped near 80-column width.
-
-The text we write as curriculum is not _merely_ text, it's _technical text_.
-It's important that it be written easily, but **it's more important** that it
-be _reviewed, vetted, and discussed_ easily.
-
-While _editors_ may have soft wrap, many editing tools (e.g. `git diff`,
-`DiffMerge`, `vimdiff`, etc.) have their efficacy undermined by long lines. For
-the same reason we don't write methods with their implementation all in one
-line, we want a similar level of granularity when editing _technical text_.
-
-These tools help the editing process. All major editors have configuration
-options to support this (e.g. vim's `format`, [Atom][atom-hard-wrap]).
-
-That said, **don't make this a crusade**. It would be an anti-pattern to
-iterate through old curriculum making everything 80-column compliant. If you're
-going to do substantial rework or new work, adhere to this guideline.
-
-Also, Markdown image linking will break when you heard break in the link
-specification brackets `[this will\n break]`. Obviously break our guideline
-here. It's very unlikely that you're going to receive frequent feedback on your
-links.
 
 <a name="code_words"></a> 
 
@@ -325,19 +296,6 @@ code, think of the use case to determine what you're talking about. Are you:
   snippet. 
 * discussing an abstract count that's relevant to your code? Do both, by
 * presenting it as ten (10) or ten (`10`).
-
-<a name="latin_abbrevs"></a>
-
-### *exampla gratia* (e.g.) vs. *id est* (i.e.) vs. *et cetera* (etc.)
-
-* e.g. — Latin for "given example(s)" — points to a single example or a finite
-  list of examples.
-* i.e. — Latin for "meaning" — points out a further explanation of the same
-  idea.
-* etc. — follows one or several examples pulled from a longer set of potential
-  examples. 
-
-*etc. and e.g. should not be combined in the same list*
 
 <a name="disambiguation_of_learn"></a>
 
