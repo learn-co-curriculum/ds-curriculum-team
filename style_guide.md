@@ -26,13 +26,10 @@ Contents:
   * [Numerology](#numerology)
   * [Disambiguation of "learn"](#disambiguation_of_learn)
   * [Headings Get an Additional Blank Line](#headings_get_an_additional_blank_line)
-  * [Terminal, console, etc.](#wc_terminal)
 * Engaging Writing
   * [Tone](#tone)
   * [Personhood](#personhood)
   * [Non-Gendered Speech](#non-gendered_speech)
-  * [Avoid Burying the Lede](#avoid_burying_the_lede)
-  * [Write to a Junior High level](#write_jr_high)
   * [Avoid Value Judgements](#avoid_value_judgements)
   * [Prefer Active Voice](#prefer_active_voice)
   * [Write from the Student Perspective](#write_from_the_student_perspective)
@@ -337,31 +334,6 @@ lorem ipsum sit dolor amet
 Example is a very important word.
 ```
 
-<a name="wc_terminal"></a>
-### Terminal, console, etc.
-
-Given our subject matter we have to be careful not to conflate `bash`, `shell`,
-`command line`, `command prompt`. It's important to be clear on which layer
-of abstracting you're working with, where. The general preferred nouns should
-be `terminal` and `shell`. Here are tips for sensing the boundary:
-
-* All students should be pointed to the `terminal`. Pretty safe. This means
-  the terminal emulation program, i.e. the thing that handles raw input and output
-  and painting a screen. **NOTE** it does not process the input for semantic
-  meaning. `ls` is handled by the **shell** not the **terminal**. You _can_
-  type `ls` into the termainal though.
-* `the shell` takes input, thinks, prints things out. Pretty safe. Use this when
-   you're trying to talk about the OS level mechanics. The shell doesn't paint
-   the screen.
-* `Terminal` is a command used only by Mac users. Not safe
-* `console`s exist in Chrome and in an XTerm. Not safe.
-* `bash` is a specific shell. Probably not safe.
-* The command prompt is the thing set by `PS1`, might be safe to orient by,
-  but it doesn't process data, etc.
-* The command-line...roughly the same as shell, but it's really a style of
-  of interaction. Prefer shell.
-
-
 ## Engaging Writing
 
 <a name="tone"></a>
@@ -400,47 +372,6 @@ We do not use "he" or "she" or "ze" or "wir" or "hir."
 We use "they" as a third-person singular honoring the descriptivist tendencies
 of pre-18<sup>th</sup> century usage.
 
-<a name="write_jr_high"></a>
-
-### Write to a Junior-High Reading Level
-
-While beautiful prose is something that we, as writers, likely hold dear, we
-need to downplay that when writing technical material. We want the cognitive
-burden to be on the _learning_ not waiting for the third nested appositive in
-the sentence after an em-dash to be the burden.
-
-In effort to help this we're using readable.io to score. While there are some
-cases where using words that readable doesn't like are the right thing to do
-(e.g. "integrated development environment" is, well, what it is, I don't give a
-damn if those mean a lot of syllables that make for long sentences in their
-scorer).
-
-For READMES, target 6.x and for technical material target 7.x. Obviously, the
-lower the score the more friendly you are to the reader, but let's be
-reasonable.
-
-<a name="avoid_burying_the_lede"></a>
-
-### Avoid Burying the Lede
-
-The "lede" is the point of the thing.
-
-In technical writing, especially when encountering newcomers, we cannot rely on
-subtlety or three-act structure to create and sustain tension such that the
-audience will be _gasp_ amazed and awed by our writing for the big reveal of
-the lede at the end of the document.
-
-While we should guide the presentation by questions, the reader should already
-have the answer in the bag. While it may feel inferior as a _writer_ it's
-superior as a _curriculum writer_. Time and again, research has shown that
-communicating the goals, following the plan, and then reviewing pays dividends
-for learners.
-
-**Protip**: If you're wondering where your lede is and you've been writing like
-a novel (building to a rising **ho-ho!** _reveal_!) Your lede is _most likely_
-in your final paragraph. You can often literally move that paragraph to be the
-first and *ka-bam* you now have writing ideal for learners!
-
 <a name="avoid_value_judgements"></a>
 
 ### Avoid Value Judgements
@@ -452,11 +383,6 @@ taken and parroted by neophytes in ways that might be dangerous to their
 outcomes. Imagine they walk into an interview at a Big Bank and are asked about
 what technology to use for online banking and they suggest Ruby because "Java
 is Hell on Earth."
-
-While many value judgements can be entirely innocuous, it can lead to an
-integration of the hacker culture which uses scoffing as a means for compliance
-and social control. In its pathological form, it's antithetical to our value of
-"Radiate Positivity."
 
 Also, be aware imputation or inference of values can set up learners' sense of
 impostor syndrome.
