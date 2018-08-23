@@ -25,7 +25,6 @@ Contents:
   * [Asides](#asides)
   * [Numerology](#numerology)
   * [Disambiguation of "learn"](#disambiguation_of_learn)
-  * [Headings Get an Additional Blank Line](#headings_get_an_additional_blank_line)
 * Engaging Writing
   * [Tone](#tone)
   * [Personhood](#personhood)
@@ -307,32 +306,6 @@ Usage:
 
 "You'll learn that the `learn` command integrates with your profile on Learn.co
 by uploading information through the Learn IDE."
-
-<a name="headings_get_an_additional_blank_line"></a>
-
-### Headings Get an Additional Blank Line
-
-Markdown was designed to emualte rich text within console based editors and
-pagers. As such a headline should "pop" by being surrounded by blank lines.
-
-Do:
-
-```
-lorem ipsum sit dolor amet
-
-## Example
-
-Example is a very important word.
-```
-
-Do not:
-
-```
-lorem ipsum sit dolor amet
-
-## Example
-Example is a very important word.
-```
 
 ## Engaging Writing
 
