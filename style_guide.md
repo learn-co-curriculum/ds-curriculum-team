@@ -396,32 +396,6 @@ _them_ who is "stupid" because the elegance of a responder with a single method
 is not something that has become native to their mental map of the programming
 universe.
 
-### Avoid Tautological or Weak Sentences
-
-If a statement merely states a truth or opinion, it's likely standing in for a
-vigorous demonstration.
-
-Example:
-
-> `vim` is a powerful editor!
-
-First, we have an implicit value judgment (Are other editors underpowered? What
-does "power" even mean in this context?).
-
-Versus:
-
-> `vim will let you accomplish many changes in a programmatic interface. To see
-> this in action type `:%s/dog/poodle/g|%s/Dog/Poodle/g|44,50m0|w`. In this
-> one line you changed all mentions of dogs to Poodle and took your
-> lede-bearing paragraph and moved it to the top of the document _and_ saved the
-> file to disk _all without leaving the home-row_. It's this capability to
-> programmatically "queue" and move text efficiently that earns `vim` the
-> adjective of being "powerful."
-
-This, however, makes one ask, is that argument _even useful_? Did I just break
-the flow? If the answer is "yes" then there's probably a very good argument for
-simply _deleting the sentence_.
-
 <a name="prefer_active_voice"></a>
 
 ### Prefer Active Voice
