@@ -25,8 +25,6 @@ Contents:
   * [Numerology](#numerology)
   * [Disambiguation of "learn"](#disambiguation_of_learn)
   * [Headings Get an Additional Blank Line](#headings_get_an_additional_blank_line)
-  * [Do Not Leave Hanging Whitespace at End-of-Line](#do_not_leave_hanging_whitespace_at_end-of-line)
-  * [Headings Should Be Capitalized According to AP Style](#headings_should_be_capitalized_according_to_ap_style)
   * [Terminal, console, etc.](#wc_terminal)
 * Engaging Writing
   * [Tone](#tone)
@@ -129,7 +127,6 @@ operators](https://github.com/learn-co-curriculum/reading-ios-looping-and-condit
 Try to keep the Markdown symbols as table-like as possible, wrap symbols in
 code snippets, and use markdown reference notation for icon links inside a
 "cell". These will improve future maintainability of the code.
-<a name="headings_should_be_capitalized_according_to_ap_style"></a>
 
 <a name="quotes"></a>
 
@@ -151,27 +148,11 @@ When writing an "in-line quote", punctuation should remain outside the phrase
 can have technical importance to the subject matter so explicitly excluding
 punctuation from quotes is justifiable.
 
-#### Do Not Use Curly-Quotes
+#### Do Not Use Curly-Quotes or Smartquotes
 
-No: `”`
-
-They render unpredictably, you can't search for them from a standard keyboard.
-No. Also no: &raquo; &laquo;. Use American quotation formatting.
-
-#### Do Not Use Smartquotes
-
-If your editor does this, stop it.
-
-Not:
-
-“Why”
-
-But:
-
-"Why"
-
-If one wanted to change the first example from `“` to `'` one couldn't search
-for this character. Use code characters.
+No: curly quotes: `”` or smart quotes: “Why”
+Also no: &raquo; &laquo;. 
+Use American quotation formatting: "Why"
 
 ## Style
 
@@ -205,11 +186,9 @@ when you simply use `import pandas` or name it differently. We encourage writers
 
 ### Abbreviations
 
-Technological writing is full of initialisms, acronyms, and abbreviations. Our
-audience is quite likely to be unfamiliar with them. To remedy this, any
-abbreviation may be used _only after it is introduced_ in the document and the
-corresponding shortener _explicitly stated_. Feel free to be generous with your
-abbreviations' explanations. Feel free to use abbreviations sparringly.
+Technological writing is full of initialisms, acronyms, and abbreviations. As our
+audience is quite likely to be unfamiliar with them, **any
+abbreviation may be used _only after it is introduced_**.
 
 Incorrect:
 
@@ -242,6 +221,9 @@ Don't capitalize:
 * *names of programming languages:* Python, Ruby, Objective-C, Swift, JavaScript
 * Interface Builder — Xcode's integrated storyboard design tool.
 <a name="asides"></a>
+
+In **headers**, capitalize *every* word except: "a," "an," "and," "at," "but," "by," "for," "in,"
+"nor," "of," "on," "or," "out," "so," "the," "to," "up," and "yet."
 
 ### Asides
 
@@ -318,17 +300,6 @@ Usage:
 "You'll learn that the `learn` command integrates with your profile on Learn.co
 by uploading information through the Learn IDE."
 
-#### Learner vs. learner
-
-* learner — noun — a person who is gaining new knowledge or developing a skill.
-* Learner — proper noun — a student using Learn.co to learn software
-* development.
-
-Usage:
-
-"Learners on Learn.co are learning the tools to make themselves lifelong
-learners."
-
 <a name="headings_get_an_additional_blank_line"></a>
 
 ### Headings Get an Additional Blank Line
@@ -354,23 +325,6 @@ lorem ipsum sit dolor amet
 ## Example
 Example is a very important word.
 ```
-
-<a name="do_not_leave_hanging_whitespace_at_end-of-line"></a>
-
-### Do Not Leave Hanging Whitespace at End-of-Line
-
-When editing it's common to leave hanging whitespace. Don't leave these.
-
-```
-I hope that this 
-does not reflect poorly on my yearly 
-review.
-```
-
-### Headings Should Be Capitalized According to AP Style
-
-Capitalize every word except: "a," "an," "and," "at," "but," "by," "for," "in,"
-"nor," "of," "on," "or," "out," "so," "the," "to," "up," and "yet."
 
 <a name="wc_terminal"></a>
 ### Terminal, console, etc.
